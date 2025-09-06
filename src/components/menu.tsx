@@ -1,6 +1,5 @@
 import React from "react";
 import MenuList from "./ui/menu-list";
-import { title } from "process";
 const menus = [
   {
     ImageSrc: "/salmon-desktop.jpg",
@@ -37,8 +36,9 @@ function Menu() {
             A few highlights from our menu
           </h1>
           <p className="text-[16px] md:text-[20px] text-center md:text-start mt-6">
-            We cater for all dietary requirements, but here's a glimpse at some
-            of our diner's favourites. Our menu is revamped every season.
+            We cater for all dietary requirements, but here&apos;s a glimpse at
+            some of our diner&apos;s favourites. Our menu is revamped every
+            season.
           </p>
         </div>
         <div className="flex flex-col">

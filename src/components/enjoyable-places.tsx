@@ -45,7 +45,7 @@ function EnjoyablePlaces() {
             </h1>
             <p className="text-gray-600 text-lg leading-relaxed">
               All our ingredients come directly from our farm or local fishery.
-              So you can be sure that you’re eating the freshest, most
+              So you can be sure that you&apos;re eating the freshest, most
               sustainable food.
             </p>
           </div>
