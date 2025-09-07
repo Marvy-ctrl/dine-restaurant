@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./ui/button";
 import BookingForm from "./booking-form";
 function BookingHero() {
   return (
@@ -14,9 +13,9 @@ function BookingHero() {
               Reservations
             </h1>
             <p className="text-[16px] md:[20px] md:text-left md:max-w-[473px]">
-              We can't wait to host you. If you have any special requirements
-              please feel free to call on the phone number below. We'll be happy
-              to accommodate you.
+              We can&apos;t wait to host you. If you have any special
+              requirements please feel free to call on the phone number below.
+              We&apos;ll be happy to accommodate you.
             </p>
           </div>
           <div className="flex justify-end">
