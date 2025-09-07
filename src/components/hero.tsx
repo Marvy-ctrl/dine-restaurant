@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Button from "./ui/button";
+import Link from "next/link";
 function Hero() {
   return (
     <section className="bg-[url(/hero-mobile.jpg)] font-spartan bg-no-repeat bg-cover md:bg-[url(/hero-bg-desktop.jpg)] w-full min-h-screen ">
@@ -14,9 +15,12 @@ function Hero() {
             Experience our seasonal menu in beautiful country surroundings. Eat
             the freshest produce from the comfort of our farmhouse.{" "}
           </p>
-          <Button className="bg-black border border-white hover:bg-white hover:text-black text-[18px]">
-            Book A Table
-          </Button>
+          <Link href={"/booking"}>
+            {" "}
+            <Button className="bg-black border border-white hover:bg-white hover:text-black text-[18px]">
+              Book A Table
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Button from "./ui/button";
 import { eventLists } from "@/data/event-lists";
+import Link from "next/link";
 
 function Events() {
   const [events, setEvents] = useState({
@@ -47,9 +48,12 @@ function Events() {
                 : eventLists[2].content}
             </p>
             <div className="order-4 md:order-3 mt-8 md:mt-12">
-              <Button className="bg-black border hover:border-black hover:bg-white hover:text-black text-[18px] font-semibold text-white">
-                Book A Table
-              </Button>
+              <Link href={"/booking"}>
+                {" "}
+                <Button className="bg-black border hover:border-black hover:bg-white hover:text-black text-[18px] font-semibold text-white">
+                  Book A Table
+                </Button>
+              </Link>
             </div>
             <div className="order-1 mb-8 md:order-4 md:mt-12 leading-6 text-[17px] flex flex-col gap-3  md:items-start">
               <button
